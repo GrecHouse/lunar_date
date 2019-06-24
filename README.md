@@ -1,0 +1,45 @@
+# Lunar Date Sensor
+
+오늘의 음력 날짜를 알려줍니다. \
+korean-lunar-calendar 파이썬 라이브러리 설치가 필요합니다.
+
+<br>
+
+## Installation
+
+- korean-lunar-calendar 라이브러리를 설치합니다.
+```bash
+$ sudo pip3 install korean-lunar-calendar
+``` 
+- HA 설치 경로 아래 custom_component 에 파일을 넣어줍니다.
+<br>`<config directory>/custom_components/lunar_date/sensor.py`
+<br>`<config directory>/custom_components/lunar_date/__init__.py`
+<br>`<config directory>/custom_components/lunar_date/manifest.json`
+- configuration.yaml 파일에 설정을 추가합니다.
+- Home Assistant 를 재시작합니다.
+
+<br>
+
+## Usage
+
+### configuration
+- HA 설정에 lunar_date 센서를 추가합니다.
+
+```yaml
+sensor:
+  - platform: lunar_date
+```
+<br>
+
+**Configuration variables:**
+
+|옵션|값|
+|--|--|
+|platform|  (필수) lunar_date
+|name| (옵션) 센서 이름, 기본값은 lunar_date
+
+<br>
+
+## 버그 또는 문의사항
+네이버 카페 [SmartThings&IoT Home](https://cafe.naver.com/stsmarthome/) 에서 ID **그레고리하우스**를 찾아주세요.
+
