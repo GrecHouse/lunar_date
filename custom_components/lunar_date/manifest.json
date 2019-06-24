@@ -1,0 +1,10 @@
+{
+  "domain": "lunar_date",
+  "name": "Lunar Date",
+  "documentation": "https://github.com/GrecHouse/lunar_date",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [
+    "@GrecHouse"
+  ]
+}
