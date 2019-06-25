@@ -1,7 +1,9 @@
 # Lunar Date Sensor
 
-오늘의 음력 날짜를 알려주는 Home Assistant Sensor 입니다. \
-파이썬 라이브러리 소스 korean-lunar-calendar @author : usingsky@gmail.com 을 이용해 만들었습니다. \
+오늘의 음력 날짜를 알려주는 Home Assistant Sensor 입니다. 
+<br><br>
+
+파이썬 라이브러리 소스 `korean-lunar-calendar` 를 이용해 만들었습니다. \
 https://pypi.org/project/korean-lunar-calendar/ \
 https://github.com/usingsky/korean_lunar_calendar_py
 
