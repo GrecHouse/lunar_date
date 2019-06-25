@@ -1,21 +1,20 @@
 # Lunar Date Sensor
 
-오늘의 음력 날짜를 알려줍니다. \
-korean-lunar-calendar 파이썬 라이브러리 설치가 필요합니다.
+오늘의 음력 날짜를 알려주는 Home Assistant Sensor 입니다. \
+파이썬 라이브러리 소스 korean-lunar-calendar @author : usingsky@gmail.com 을 이용해 만들었습니다. \
+https://pypi.org/project/korean-lunar-calendar/ \
+https://github.com/usingsky/korean_lunar_calendar_py
+
 
 <br>
 
 ## Installation
 
-- korean-lunar-calendar 라이브러리를 설치합니다.
-```bash
-$ sudo pip3 install korean-lunar-calendar
-``` 
 - HA 설치 경로 아래 custom_component 에 파일을 넣어줍니다.
 <br>`<config directory>/custom_components/lunar_date/sensor.py`
 <br>`<config directory>/custom_components/lunar_date/__init__.py`
 <br>`<config directory>/custom_components/lunar_date/manifest.json`
-- configuration.yaml 파일에 설정을 추가합니다.
+- configuration.yaml 파일에 설정을 추가합니다. 
 - Home Assistant 를 재시작합니다.
 
 <br>
