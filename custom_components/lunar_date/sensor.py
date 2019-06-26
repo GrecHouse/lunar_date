@@ -1,6 +1,5 @@
 """
 Sensor to indicate today's lunar date.
-Library installation required : $ sudo pip3 install korean-lunar-calendar
 For more details about this platform, please refer to the documentation at
 https://github.com/GrecHouse/lunar_date
 
