@@ -1,3 +1,5 @@
+![version](https://img.shields.io/badge/version-1.0-blue)
+
 # Lunar Date Sensor
 
 오늘의 음력 날짜를 알려주는 Home Assistant Sensor 입니다. 
