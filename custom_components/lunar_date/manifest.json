@@ -2,9 +2,7 @@
   "domain": "lunar_date",
   "name": "Lunar Date",
   "documentation": "https://github.com/GrecHouse/lunar_date",
-  "requirements": [],
+  "requirements": ["korean-lunar-calendar==0.2.0"],
   "dependencies": [],
-  "codeowners": [
-    "@GrecHouse"
-  ]
+  "codeowners": ["@GrecHouse"]
 }
