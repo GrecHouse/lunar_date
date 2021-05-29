@@ -4,5 +4,6 @@
   "documentation": "https://github.com/GrecHouse/lunar_date",
   "requirements": ["korean-lunar-calendar==0.2.0"],
   "dependencies": [],
-  "codeowners": ["@GrecHouse"]
+  "codeowners": ["@GrecHouse"],
+  "version": "1.1.1"
 }
