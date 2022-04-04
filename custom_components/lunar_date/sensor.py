@@ -77,7 +77,7 @@ class LunarDateSensor(Entity):
         return 'mdi:calendar-star'
 
     @property
-    def device_state_attributes(self):
+    def extra_state_attributes(self):
         """Return the attribute(s) of the sensor"""
         return self._attribute
 
