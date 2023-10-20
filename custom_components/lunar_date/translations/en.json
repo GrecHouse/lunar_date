@@ -1,0 +1,15 @@
+{
+    "title": "Lunar Date",
+    "config": {
+        "abort": {
+            "already_configured": "The service is already configured."
+        },
+        "step": {
+            "user": {
+                "title": "Lunar Date",
+                "data": {
+                }
+            }
+        }
+    }
+}
