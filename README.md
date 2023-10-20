@@ -43,6 +43,11 @@ https://github.com/usingsky/korean_lunar_calendar_py
 - 설정 > 기기 및 서비스 > 통합구성요소 추가하기
 - `음력` 또는 `lunar` 등으로 검색해서 추가하세요.
 
+![Step1](images/step1.png)
+![Step2](images/step2.png)
+![Step3](images/step3.png)
+
+
 <br>
 
 ## 버그 또는 문의사항
