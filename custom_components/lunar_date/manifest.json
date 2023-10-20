@@ -1,9 +1,12 @@
 {
   "domain": "lunar_date",
-  "name": "Lunar Date",
+  "name": "음력",
   "documentation": "https://github.com/GrecHouse/lunar_date",
-  "requirements": ["korean-lunar-calendar==0.2.0"],
-  "dependencies": [],
+  "config_flow": true,
   "codeowners": ["@GrecHouse"],
-  "version": "1.1.2"
+  "dependencies": [],
+  "requirements": ["korean-lunar-calendar==0.3.1"],
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/GrecHouse/lunar_date/issues",
+  "version": "1.2.0"
 }

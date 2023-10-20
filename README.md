@@ -1,4 +1,4 @@
-![version](https://img.shields.io/badge/version-1.1.2-blue)
+![version](https://img.shields.io/badge/version-1.2.0-blue)
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
 
 # Lunar Date Sensor
@@ -16,40 +16,37 @@ https://github.com/usingsky/korean_lunar_calendar_py
 
 ## Installation
 
-### 직접 설치
-- HA 설치 경로 아래 custom_component 에 파일을 넣어줍니다.
-<br>`<config directory>/custom_components/lunar_date/sensor.py`
-<br>`<config directory>/custom_components/lunar_date/__init__.py`
-<br>`<config directory>/custom_components/lunar_date/manifest.json`
-- configuration.yaml 파일에 설정을 추가합니다. 
-- Home Assistant 를 재시작합니다.
+### _My Home Assistant_ HACS로 바로 설치
+- 아래 링크를 클릭해서 설치하세요.
 
-### HACS로 설치
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=grechouse&repository=lunar_date&category=integration)
+
+
+### HACS 수동 설치
 - HACS > Integrations 메뉴 선택
 - 우측 상단 메뉴 버튼 클릭 후 Custom repositories 선택
 - Add Custom Repository URL 에 `https://github.com/GrecHouse/lunar_date` 입력, \
   Category에 `Integration` 선택 후 ADD
 - HACS > Integrations 메뉴에서 우측 하단 + 버튼 누르고 `[KR] Luna Date Sensor` 검색하여 설치
 
+
+### 직접 설치
+- HA 설치 경로 아래 custom_component 에 lunar_date 폴더를 모두 그대로 넣어줍니다.
+- configuration.yaml 파일에 설정을 추가합니다. 
+- Home Assistant 를 재시작합니다.
+
 <br>
 
 ## Usage
 
 ### configuration
-- HA 설정에 lunar_date 센서를 추가합니다.
+- 설정 > 기기 및 서비스 > 통합구성요소 추가하기
+- `음력` 또는 `lunar` 등으로 검색해서 추가하세요.
 
-```yaml
-sensor:
-  - platform: lunar_date
-```
-<br>
+![Step1](images/step1.png)
+![Step2](images/step2.png)
+![Step3](images/step3.png)
 
-**Configuration variables:**
-
-|옵션|값|
-|--|--|
-|platform|  (필수) lunar_date
-|name| (옵션) 센서 이름, 기본값은 lunar_date
 
 <br>
 

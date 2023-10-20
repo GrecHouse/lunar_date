@@ -1,0 +1,15 @@
+{
+    "title": "음력",
+    "config": {
+        "abort": {
+            "already_configured": "서비스가 이미 구성되었습니다."
+        },
+        "step": {
+            "user": {
+                "title": "음력 센서",
+                "data": {
+                }
+            }
+        }
+    }
+}
